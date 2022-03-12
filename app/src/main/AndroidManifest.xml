@@ -31,7 +31,8 @@
 
         <activity android:name=".HuntMainActivity"
             android:label="@string/title_activity_hunt"
-            android:launchMode="singleInstance">
+            android:launchMode="singleInstance"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
